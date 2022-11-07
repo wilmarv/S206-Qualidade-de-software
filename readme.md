@@ -5,12 +5,8 @@ Teste de UI (User Interface) com cypress
 
 #### Baixar dependencia do projeto.
 
-Terminal do diretorio do projeto execute:
+Execute no terminal:
 
-```
-npm install
-```
-ou
 ```
 yarn
 ```
