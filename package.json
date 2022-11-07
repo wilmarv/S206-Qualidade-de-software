@@ -5,5 +5,12 @@
   "main": "index.js",
   "repository": "https://github.com/wilmarv/C206-Qualidade-de-software.git",
   "author": "Wilmar Vitor Fonseca <wilmarfonseca@gec.inatel.br>",
-  "license": "MIT"
+  "scripts": {
+    "testYt": "./node_modules/.bin/cypress open",
+    "spec": "./node_modules/.bin/cypress run --spec 'cypress/e2e/**/'"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^10.11.0"
+  }
 }
