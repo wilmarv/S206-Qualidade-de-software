@@ -23,5 +23,5 @@ yarn testYt
 ### ⚙️ Executando specs por linha de comando
 
 ```
-yarn spec
+yarn testSpec
 ```

@@ -7,10 +7,11 @@
   "author": "Wilmar Vitor Fonseca <wilmarfonseca@gec.inatel.br>",
   "scripts": {
     "testYt": "./node_modules/.bin/cypress open",
-    "spec": "./node_modules/.bin/cypress run --spec 'cypress/e2e/**/'"
+    "testSpec": "./node_modules/.bin/cypress run --spec 'cypress/e2e/**/'"
   },
   "license": "MIT",
-  "dependencies": {
-    "cypress": "^10.11.0"
+  "devDependencies": {
+    "cypress": "^10.11.0",
+    "cypress-mochawesome-reporter": "^3.2.3"
   }
 }
