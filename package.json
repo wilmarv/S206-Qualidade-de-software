@@ -1,0 +1,9 @@
+{
+  "name": "TrabalhoPratico",
+  "version": "1.0.0",
+  "description": "Teste de UI com cypress",
+  "main": "index.js",
+  "repository": "https://github.com/wilmarv/C206-Qualidade-de-software.git",
+  "author": "Wilmar Vitor Fonseca <wilmarfonseca@gec.inatel.br>",
+  "license": "MIT"
+}
