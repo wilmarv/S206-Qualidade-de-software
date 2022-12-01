@@ -1,0 +1,24 @@
+{
+  "person": [
+    {
+      "id": 0,
+      "nome": "Edward Elric",
+      "alcunha": "Alquimista de aço"
+    },
+    {
+      "id": 1,
+      "nome": "Roy Mustang",
+      "alcunha": "Alquimista das Chamas"
+    },
+    {
+      "id": 2,
+      "nome": "Alex Louis Armstrong",
+      "alcunha": "Alquimista dos Braços poderosos"
+    },
+    {
+      "id": 3,
+      "nome": "Tim Marcohc",
+      "alcunha": "Alquimista do Cristal"
+    }
+  ]
+}
