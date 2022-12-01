@@ -1,0 +1,11 @@
+1) Quantas suítes de testes você desenvolveu?
+     apenas 1
+2) Os testes desenvolvidos são manuais ou automatizados?
+    automatizados
+3) Onde os testes se localizam na pirâmide apresentada?
+    unitaria
+4) Os testes desenvolvidos são funcionais ou não-funcionais?
+    testes funcionais
+5) Alguns dos testes desenvolvidos são testes Fim-a-Fim (End-To-End)?
+    sim
+
