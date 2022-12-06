@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>api.users.users</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">5</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-12-06 05:27:40 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:7]"><span>[1:7]</span> <span>Test verificando tipo retornado eh um array de usuarios</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:13]"><span>[2:13]</span> <span>Teste negativo retorno de um usuario 33 não existente deve ser uma msg de erro</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[3:20]"><span>[3:20]</span> <span>Busca pelo comentario usuario 4171 cdeve retornar um array com o primeiro</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[4:29]"><span>[4:29]</span> <span>Teste Negativo deve retornar msg de erro de falha na autenticacao</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[5:45]"><span>[5:45]</span> <span>Teste retorno deve conter uma array list com 10 elementos</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">api/users/users.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Testes de API ultilzando karate</span>
+          <span class="feature-description">site para teste https://pokeapi.co</span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:7]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:7]</span>
+                <span class="scenario-name">Test verificando tipo retornado eh um array de usuarios</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>3911</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:7]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:7]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &quot;https://gorest.co.in/&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">17:27:31.007 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &quot;public/v2/users&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">19</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3865</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">17:27:32.031 request:
+1 &gt; GET https://gorest.co.in/public/v2/users
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+17:27:34.973 response time in milliseconds: 2909
+1 &lt; 200
+1 &lt; Date: Tue, 06 Dec 2022 20:27:34 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Cache-Control: max-age=0, private, must-revalidate
+1 &lt; etag: W/&quot;938a428c30ac360bb047f2c735f1e716&quot;
+1 &lt; referrer-policy: strict-origin-when-cross-origin
+1 &lt; vary: Origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-download-options: noopen
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 &lt; x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 &lt; x-links-previous: 
+1 &lt; x-pagination-limit: 10
+1 &lt; x-pagination-page: 1
+1 &lt; x-pagination-pages: 407
+1 &lt; x-pagination-total: 4062
+1 &lt; x-permitted-cross-domain-policies: none
+1 &lt; x-request-id: d4a61fd4-7b2b-4921-8cad-5e4d3acc8590
+1 &lt; x-runtime: 0.037831
+1 &lt; x-xss-protection: 0
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=gmeOBUEgt4GpqdJheWcYGM%2B901NityYRNkCHPhvBiFqifnDbfdw8xgXZ%2FFQ2L8bXx%2FLTV6Li3zjt16uRTRvq61jOoRNZm0slFaVzg8tpqzX1CS04YLqLsCgMcjcN%2FN4%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 7757c34f2816010c-GRU
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+[{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Bhooshan Nambeesan&quot;,&quot;id&quot;:4171,&quot;email&quot;:&quot;bhooshan_nambeesan@jaskolski-romaguera.info&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Subhash Verma&quot;,&quot;id&quot;:4170,&quot;email&quot;:&quot;subhash_verma@kirlin.biz&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Suma Deshpande VM&quot;,&quot;id&quot;:4169,&quot;email&quot;:&quot;suma_vm_deshpande@sauer.com&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Chidambar Varrier&quot;,&quot;id&quot;:4167,&quot;email&quot;:&quot;varrier_chidambar@ledner.co&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Pres. Maheswar Prajapat&quot;,&quot;id&quot;:4166,&quot;email&quot;:&quot;pres_prajapat_maheswar@zieme.net&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Bhooshan Prajapat&quot;,&quot;id&quot;:4163,&quot;email&quot;:&quot;prajapat_bhooshan@spencer-herman.net&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Veda Joshi&quot;,&quot;id&quot;:4162,&quot;email&quot;:&quot;joshi_veda@halvorson.org&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Prasanna Guneta&quot;,&quot;id&quot;:4161,&quot;email&quot;:&quot;prasanna_guneta@rogahn.biz&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Akroor Talwar DDS&quot;,&quot;id&quot;:4160,&quot;email&quot;:&quot;dds_akroor_talwar@prohaska.name&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;gender&quot;:&quot;female&quot;,&quot;name&quot;:&quot;Paramartha Chopra&quot;,&quot;id&quot;:4159,&quot;email&quot;:&quot;paramartha_chopra@green.info&quot;,&quot;status&quot;:&quot;active&quot;}]
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">15</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response == &quot;#[]&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">12</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:13]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:13]</span>
+                <span class="scenario-name">Teste negativo retorno de um usuario 33 não existente deve ser uma msg de erro</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1667</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:13]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:13]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &quot;https://gorest.co.in/&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">17:27:35.082 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &quot;public/v2/users/33&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">13</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1630</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.15">17:27:35.106 request:
+1 &gt; GET https://gorest.co.in/public/v2/users/33
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+17:27:36.731 response time in milliseconds: 1624
+1 &lt; 404
+1 &lt; Date: Tue, 06 Dec 2022 20:27:36 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Cache-Control: no-cache
+1 &lt; referrer-policy: strict-origin-when-cross-origin
+1 &lt; vary: Origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-download-options: noopen
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-permitted-cross-domain-policies: none
+1 &lt; x-request-id: 7c77a572-c07d-49ad-a46a-e23d74417c95
+1 &lt; x-runtime: 0.011979
+1 &lt; x-xss-protection: 0
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ip6izRIcHzYVe%2BoGOZr%2BvsxEkIL47yVFKDkAx9juj7vHDG1NbQHvep%2FTUgQH%2F%2FrpxTXfsvuPsoZILZT%2B1PHqY8RupZH5rd7aLzqk%2BB%2B%2FF4EtJNq8X8anlBKWpj4Sx9k%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 7757c35ffab1a511-GRU
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;message&quot;:&quot;Resource not found&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 404</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.message == &quot;Resource not found&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">24</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:20]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:20]</span>
+                <span class="scenario-name">Busca pelo comentario usuario 4171 cdeve retornar um array com o primeiro</span>
+                <span>comentario com titulo especifico</span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1358</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3:20]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &quot;https://gorest.co.in/&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">17:27:36.772 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def title = &quot;Cur comitatus angustus suscipio comes sustineo ager avaritia fuga cometes.&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.24">
+      <div class="step-ref passed">24</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &quot;public/v2/posts?user_id=4171&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.25">
+      <div class="step-ref passed">25</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1353</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.25">17:27:36.780 request:
+1 &gt; GET https://gorest.co.in/public/v2/posts?user_id=4171
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+17:27:38.130 response time in milliseconds: 1349
+1 &lt; 200
+1 &lt; Date: Tue, 06 Dec 2022 20:27:38 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Cache-Control: max-age=0, private, must-revalidate
+1 &lt; etag: W/&quot;1d8dbc8e02159fa515ba7bfa793f74c4&quot;
+1 &lt; referrer-policy: strict-origin-when-cross-origin
+1 &lt; vary: Origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-download-options: noopen
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-links-current: https://gorest.co.in/public/v2/posts?page=1
+1 &lt; x-links-next: 
+1 &lt; x-links-previous: 
+1 &lt; x-pagination-limit: 10
+1 &lt; x-pagination-page: 1
+1 &lt; x-pagination-pages: 1
+1 &lt; x-pagination-total: 1
+1 &lt; x-permitted-cross-domain-policies: none
+1 &lt; x-request-id: 41478323-005b-440c-95c7-dc4be66595e8
+1 &lt; x-runtime: 0.014169
+1 &lt; x-xss-protection: 0
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=UkTikLSANqGXRUv6vs%2B599QwxjzxvdmZss%2BebfuMSh1WcrEUpLNf1XNhyI%2B8UjIPhJxMKbxcMOVnVVEKwKWuF%2FlswXnFX5ZJzSGObtFgOpPjiySlBjHS1q6g4mxXNmE%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 7757c368cf6400e2-GRU
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+[{&quot;user_id&quot;:4171,&quot;id&quot;:2146,&quot;title&quot;:&quot;Cur comitatus angustus suscipio comes sustineo ager avaritia fuga cometes.&quot;,&quot;body&quot;:&quot;Vado delinquo architecto. Abduco et quam. Ullus turbo bonus. Aspernatur solvo vae. Cresco colloco deludo. Defetiscor arguo adeo. Accendo vicinus ab. Vado verumtamen tandem. Vorax sequi omnis. Approbo sursum claro. Crinis vos vado. Sed temperantia capitulus. Cohibeo eum ultio. Adflicto asper quia. Defleo triumphus degenero. Succedo tamen civitas.&quot;}]
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.26">
+      <div class="step-ref passed">26</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response[0].title == title</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[4:29]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[4:29]</span>
+                <span class="scenario-name">Teste Negativo deve retornar msg de erro de falha na autenticacao</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1438</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[4:29]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[4:29]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &quot;https://gorest.co.in/&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">17:27:38.146 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def user =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">11</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.30">{
+  &quot;name&quot;: &quot;Wilmar Nome SobreNome&quot;,
+  &quot;email&quot;: &quot;Wilmar@Email.com&quot;,
+  &quot;gender&quot;: &quot;male&quot;,
+  &quot;status&quot;: &quot;inactive&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.39">
+      <div class="step-ref passed">39</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &quot;public/v2/users&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.40">
+      <div class="step-ref passed">40</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request user</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.41">
+      <div class="step-ref passed">41</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1416</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.41">17:27:38.205 request:
+1 &gt; POST https://gorest.co.in/public/v2/users
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 95
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;gender&quot;:&quot;male&quot;,&quot;name&quot;:&quot;Wilmar Nome SobreNome&quot;,&quot;email&quot;:&quot;Wilmar@Email.com&quot;,&quot;status&quot;:&quot;inactive&quot;}
+
+17:27:39.572 response time in milliseconds: 1366
+1 &lt; 401
+1 &lt; Date: Tue, 06 Dec 2022 20:27:39 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Cache-Control: no-cache
+1 &lt; referrer-policy: strict-origin-when-cross-origin
+1 &lt; vary: Origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-download-options: noopen
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-permitted-cross-domain-policies: none
+1 &lt; x-request-id: 7cc236d7-fc45-4d5e-8ea7-cc2cdebba728
+1 &lt; x-runtime: 0.006222
+1 &lt; x-xss-protection: 0
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=7oXUSk69B7PHZTLLpZnQxKdezlcIUtohveZJr84xXaKSa8u2NkMzAufbdzP4BwOI%2FBG6HVF3A5vfB5qPWsz7XRvnM13ltNmix%2FW5Ld%2BDLCjaiZZ5erQWHsBaZruDiD8%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 7757c3715f701af4-GRU
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;message&quot;:&quot;Authentication failed&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.42">
+      <div class="step-ref passed">42</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 401</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.43">
+      <div class="step-ref passed">43</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>response.message == &quot;Authentication failed&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">10</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[5:45]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[5:45]</span>
+                <span class="scenario-name">Teste retorno deve conter uma array list com 10 elementos</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>499</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[5:45]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[5:45]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &quot;https://gorest.co.in/&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">17:27:39.599 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.46">
+      <div class="step-ref passed">46</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &quot;public/v2/todos&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.47">
+      <div class="step-ref passed">47</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">494</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.47">17:27:39.602 request:
+1 &gt; GET https://gorest.co.in/public/v2/todos
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+17:27:40.091 response time in milliseconds: 487
+1 &lt; 200
+1 &lt; Date: Tue, 06 Dec 2022 20:27:40 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Cache-Control: max-age=0, private, must-revalidate
+1 &lt; etag: W/&quot;c6a4c907880bfbbe8bb9d285dc41ad5e&quot;
+1 &lt; referrer-policy: strict-origin-when-cross-origin
+1 &lt; vary: Origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-download-options: noopen
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-links-current: https://gorest.co.in/public/v2/todos?page=1
+1 &lt; x-links-next: https://gorest.co.in/public/v2/todos?page=2
+1 &lt; x-links-previous: 
+1 &lt; x-pagination-limit: 10
+1 &lt; x-pagination-page: 1
+1 &lt; x-pagination-pages: 200
+1 &lt; x-pagination-total: 2000
+1 &lt; x-permitted-cross-domain-policies: none
+1 &lt; x-request-id: b13e3160-04a5-4524-9a6c-cee374514908
+1 &lt; x-runtime: 0.027978
+1 &lt; x-xss-protection: 0
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=kZviAyyrTwdA4t52%2Fg8gvmZYYoTnqz3zvEO8lrW6LlkcOXN%2Ful25uoZki0MIEvNCMrbiFr%2BJhRd1YA9d2EwgF1Fdu%2BA%2Bdc7QWdX2Bg4M8Z7qQj%2FDieztSbJwtDQly9Y%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 7757c374ebe901ad-GRU
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+[{&quot;user_id&quot;:4181,&quot;id&quot;:2058,&quot;title&quot;:&quot;Laborum absque utrimque clibanus caelum vivo arceo vero argentum.&quot;,&quot;due_on&quot;:&quot;2022-12-19T00:00:00.000+05:30&quot;,&quot;status&quot;:&quot;completed&quot;},{&quot;user_id&quot;:4171,&quot;id&quot;:2053,&quot;title&quot;:&quot;Sollers appositus vulgaris viriliter alius.&quot;,&quot;due_on&quot;:&quot;2022-12-09T00:00:00.000+05:30&quot;,&quot;status&quot;:&quot;completed&quot;},{&quot;user_id&quot;:4170,&quot;id&quot;:2052,&quot;title&quot;:&quot;Amiculum surculus aedificium clementia magnam copia veniam.&quot;,&quot;due_on&quot;:&quot;2023-01-01T00:00:00.000+05:30&quot;,&quot;status&quot;:&quot;completed&quot;},{&quot;user_id&quot;:4169,&quot;id&quot;:2051,&quot;title&quot;:&quot;Tempore enim viduo valens non et caelestis coniecto.&quot;,&quot;due_on&quot;:&quot;2022-12-11T00:00:00.000+05:30&quot;,&quot;status&quot;:&quot;pending&quot;},{&quot;user_id&quot;:4167,&quot;id&quot;:2049,&quot;title&quot;:&quot;Solutio tenetur exercitationem usus curvus et corrumpo capitulus una aestivus eaque.&quot;,&quot;due_on&quot;:&quot;2022-12-06T00:00:00.000+05:30&quot;,&quot;status&quot;:&quot;completed&quot;},{&quot;user_id&quot;:4166,&quot;id&quot;:2048,&quot;title&quot;:&quot;Victoria debitis ut temporibus rerum eaque vel sono certo sol.&quot;,&quot;due_on&quot;:&quot;2022-12-23T00:00:00.000+05:30&quot;,&quot;status&quot;:&quot;completed&quot;},{&quot;user_id&quot;:4163,&quot;id&quot;:2047,&quot;title&quot;:&quot;Accendo voluptatem mollitia complectus verbum civis cotidie ager distinctio.&quot;,&quot;due_on&quot;:&quot;2022-12-22T00:00:00.000+05:30&quot;,&quot;status&quot;:&quot;completed&quot;},{&quot;user_id&quot;:4160,&quot;id&quot;:2046,&quot;title&quot;:&quot;Perspiciatis absorbeo aro aestus statim spectaculum stillicidium trado.&quot;,&quot;due_on&quot;:&quot;2023-01-03T00:00:00.000+05:30&quot;,&quot;status&quot;:&quot;pending&quot;},{&quot;user_id&quot;:4159,&quot;id&quot;:2045,&quot;title&quot;:&quot;Caelestis delicate undique attero versus.&quot;,&quot;due_on&quot;:&quot;2022-12-12T00:00:00.000+05:30&quot;,&quot;status&quot;:&quot;completed&quot;},{&quot;user_id&quot;:4156,&quot;id&quot;:2043,&quot;title&quot;:&quot;Solvo adinventitias vita sit velociter unde adsidue terreo similique beatae.&quot;,&quot;due_on&quot;:&quot;2022-12-19T00:00:00.000+05:30&quot;,&quot;status&quot;:&quot;completed&quot;}]
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.48">
+      <div class="step-ref passed">48</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.49">
+      <div class="step-ref passed">49</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response == &quot;#[10]&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

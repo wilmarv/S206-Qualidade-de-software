@@ -1,0 +1,1728 @@
+16:45:34.868 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:45:36.712 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+16:45:37.806 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:45:39.754 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1910
+1 < 200
+1 < Date: Tue, 06 Dec 2022 19:45:39 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"658792b3744565a99a6abdf8bde72b4a"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 407
+1 < x-pagination-total: 4066
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 80c9f412-36ba-4534-836d-d0bfc5e79d76
+1 < x-runtime: 0.021799
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=OOiSa39w4ymAULo%2FNhGWVmP%2BkMKEsDRDUqaYo%2FUc2XGWdkbJDUedRFiQlaKBGEz%2FBlwcIKXwgTGSMcwqDJL8ZxWpjOAst%2B0Uteelv47oSWqm05WziraQH3SSc7q9npI%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 775785e72c01a474-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"gender":"female","name":"Devagya Guneta","id":4181,"email":"devagya_guneta@durgan.com","status":"active"},{"gender":"female","name":"Umang Sharma","id":4175,"email":"umang_sharma@lind-ryan.co","status":"inactive"},{"gender":"female","name":"Balagovind Ahluwalia","id":4174,"email":"balagovind_ahluwalia@smitham.org","status":"inactive"},{"gender":"male","name":"Bhishma Mahajan","id":4172,"email":"bhishma_mahajan@hand.org","status":"inactive"},{"gender":"female","name":"Bhooshan Nambeesan","id":4171,"email":"bhooshan_nambeesan@jaskolski-romaguera.info","status":"inactive"},{"gender":"male","name":"Subhash Verma","id":4170,"email":"subhash_verma@kirlin.biz","status":"active"},{"gender":"female","name":"Suma Deshpande VM","id":4169,"email":"suma_vm_deshpande@sauer.com","status":"inactive"},{"gender":"male","name":"Chidambar Varrier","id":4167,"email":"varrier_chidambar@ledner.co","status":"active"},{"gender":"male","name":"Pres. Maheswar Prajapat","id":4166,"email":"pres_prajapat_maheswar@zieme.net","status":"active"},{"gender":"female","name":"Bhooshan Prajapat","id":4163,"email":"prajapat_bhooshan@spencer-herman.net","status":"active"}]
+16:45:39.829 [pool-1-thread-1] INFO  com.intuit.karate - [print] [
+  {
+    "gender": "female",
+    "name": "Devagya Guneta",
+    "id": 4181,
+    "email": "devagya_guneta@durgan.com",
+    "status": "active"
+  },
+  {
+    "gender": "female",
+    "name": "Umang Sharma",
+    "id": 4175,
+    "email": "umang_sharma@lind-ryan.co",
+    "status": "inactive"
+  },
+  {
+    "gender": "female",
+    "name": "Balagovind Ahluwalia",
+    "id": 4174,
+    "email": "balagovind_ahluwalia@smitham.org",
+    "status": "inactive"
+  },
+  {
+    "gender": "male",
+    "name": "Bhishma Mahajan",
+    "id": 4172,
+    "email": "bhishma_mahajan@hand.org",
+    "status": "inactive"
+  },
+  {
+    "gender": "female",
+    "name": "Bhooshan Nambeesan",
+    "id": 4171,
+    "email": "bhooshan_nambeesan@jaskolski-romaguera.info",
+    "status": "inactive"
+  },
+  {
+    "gender": "male",
+    "name": "Subhash Verma",
+    "id": 4170,
+    "email": "subhash_verma@kirlin.biz",
+    "status": "active"
+  },
+  {
+    "gender": "female",
+    "name": "Suma Deshpande VM",
+    "id": 4169,
+    "email": "suma_vm_deshpande@sauer.com",
+    "status": "inactive"
+  },
+  {
+    "gender": "male",
+    "name": "Chidambar Varrier",
+    "id": 4167,
+    "email": "varrier_chidambar@ledner.co",
+    "status": "active"
+  },
+  {
+    "gender": "male",
+    "name": "Pres. Maheswar Prajapat",
+    "id": 4166,
+    "email": "pres_prajapat_maheswar@zieme.net",
+    "status": "active"
+  },
+  {
+    "gender": "female",
+    "name": "Bhooshan Prajapat",
+    "id": 4163,
+    "email": "prajapat_bhooshan@spencer-herman.net",
+    "status": "active"
+  }
+]
+ 
+16:45:40.983 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:api/users/users.feature
+16:50:44.656 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:50:46.647 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:50:47.754 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:50:48.975 [main] DEBUG com.intuit.karate - response time in milliseconds: 1193
+1 < 200
+1 < Date: Tue, 06 Dec 2022 19:50:48 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"658792b3744565a99a6abdf8bde72b4a"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 407
+1 < x-pagination-total: 4066
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 7cfb3d79-2936-4396-b775-2203b8b6acdb
+1 < x-runtime: 0.020015
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8VS2vKJEUlTjIkzhfuE3j2lOeQkDozeb4%2BIoK0lWM28zl9ixtz%2Ffahl7fl5pVYZEwTw6DAuye%2B%2BzWfkl9%2F%2FjURFylEcRXiOZKCViEe0QPg1qD306HrgBY6g8B%2FbjWt8%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 77578d78f868028e-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"gender":"female","name":"Devagya Guneta","id":4181,"email":"devagya_guneta@durgan.com","status":"active"},{"gender":"female","name":"Umang Sharma","id":4175,"email":"umang_sharma@lind-ryan.co","status":"inactive"},{"gender":"female","name":"Balagovind Ahluwalia","id":4174,"email":"balagovind_ahluwalia@smitham.org","status":"inactive"},{"gender":"male","name":"Bhishma Mahajan","id":4172,"email":"bhishma_mahajan@hand.org","status":"inactive"},{"gender":"female","name":"Bhooshan Nambeesan","id":4171,"email":"bhooshan_nambeesan@jaskolski-romaguera.info","status":"inactive"},{"gender":"male","name":"Subhash Verma","id":4170,"email":"subhash_verma@kirlin.biz","status":"active"},{"gender":"female","name":"Suma Deshpande VM","id":4169,"email":"suma_vm_deshpande@sauer.com","status":"inactive"},{"gender":"male","name":"Chidambar Varrier","id":4167,"email":"varrier_chidambar@ledner.co","status":"active"},{"gender":"male","name":"Pres. Maheswar Prajapat","id":4166,"email":"pres_prajapat_maheswar@zieme.net","status":"active"},{"gender":"female","name":"Bhooshan Prajapat","id":4163,"email":"prajapat_bhooshan@spencer-herman.net","status":"active"}]
+16:50:49.049 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:50:49.053 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/33
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:50:50.318 [main] DEBUG com.intuit.karate - response time in milliseconds: 1264
+1 < 404
+1 < Date: Tue, 06 Dec 2022 19:50:50 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 0c87b6ef-eecb-4c1a-a256-f7694c017580
+1 < x-runtime: 0.011151
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xh64yLlZtEmaFACx0y6iXrn9vhQyAvZiZLWzM5PD4ek7SRTxaJmVndZOJ1606mT6zytLHM3i5cWJF0ZXZ50UduVktMOqc%2B447p8KMPCtVcNLyceZHooL69Oj8C760k0%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 77578d7d1b9f00f9-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"message":"Resource not found"}
+17:15:56.139 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:15:58.104 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:15:59.600 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:16:00.838 [main] DEBUG com.intuit.karate - response time in milliseconds: 1178
+1 < 200
+1 < Date: Tue, 06 Dec 2022 20:16:00 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"6b8542954bf6a0995c1e53454a0c4829"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 407
+1 < x-pagination-total: 4065
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: bf93a0ac-6631-4458-a0c1-baac7a52f434
+1 < x-runtime: 0.030597
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=elJXdaDnILqMUoTlZkpPmVidsQIfvkRGtPEztb7VSfnCaSG1JgKRUNE8hzsPhzrUyxacqm%2BzOJJ31Jz9uaYahEcwJb2aZbXBpfOB2dm9%2BYXejFn43SDB45XnVx0cakg%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757b2628ea8a496-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"gender":"female","name":"Devagya Guneta","id":4181,"email":"devagya_guneta@durgan.com","status":"active"},{"gender":"female","name":"Balagovind Ahluwalia","id":4174,"email":"balagovind_ahluwalia@smitham.org","status":"inactive"},{"gender":"male","name":"Bhishma Mahajan","id":4172,"email":"bhishma_mahajan@hand.org","status":"inactive"},{"gender":"female","name":"Bhooshan Nambeesan","id":4171,"email":"bhooshan_nambeesan@jaskolski-romaguera.info","status":"inactive"},{"gender":"male","name":"Subhash Verma","id":4170,"email":"subhash_verma@kirlin.biz","status":"active"},{"gender":"female","name":"Suma Deshpande VM","id":4169,"email":"suma_vm_deshpande@sauer.com","status":"inactive"},{"gender":"male","name":"Chidambar Varrier","id":4167,"email":"varrier_chidambar@ledner.co","status":"active"},{"gender":"male","name":"Pres. Maheswar Prajapat","id":4166,"email":"pres_prajapat_maheswar@zieme.net","status":"active"},{"gender":"female","name":"Bhooshan Prajapat","id":4163,"email":"prajapat_bhooshan@spencer-herman.net","status":"active"},{"gender":"male","name":"Veda Joshi","id":4162,"email":"joshi_veda@halvorson.org","status":"inactive"}]
+17:16:00.891 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:16:00.897 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/33
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:16:02.120 [main] DEBUG com.intuit.karate - response time in milliseconds: 1222
+1 < 404
+1 < Date: Tue, 06 Dec 2022 20:16:02 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 7c5d8fe2-aa97-4f6b-8248-0810d068aa14
+1 < x-runtime: 0.010836
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=nUoYrm%2FOylrM5Q3NBwFDn8i9%2B4mrFYNZ3KQlSD5K0Xza7FqsZ%2FKVqLi%2BZYZlQTZB6eE5PCDehStX6W%2BrUBoIcM44mFra%2BwEOyCEbDZRCrVPn0y%2FBEwe1RFkL9FqMVEo%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757b2665b58a5d4-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"message":"Resource not found"}
+17:16:02.190 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:16:02.224 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/posts?user_id=4171
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:16:03.551 [main] DEBUG com.intuit.karate - response time in milliseconds: 1325
+1 < 200
+1 < Date: Tue, 06 Dec 2022 20:16:03 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"1d8dbc8e02159fa515ba7bfa793f74c4"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/posts?page=1
+1 < x-links-next: 
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 1
+1 < x-pagination-total: 1
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 99abc5f2-63bd-4b50-bd78-9ca5cfed35af
+1 < x-runtime: 0.013702
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gQSpQxFvdsv%2FNu%2FSK60D1mHgrB9nc4ESBWpBddXEcvWZo23VXxymWSlXI9XQ3kLOPzqBZYW%2FAlpcuuND6v5lLpKiXgHgvli3LMfBKVOtQkwCzAA7s9zyw5mUszQrH5Q%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757b26f0a494b28-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"user_id":4171,"id":2146,"title":"Cur comitatus angustus suscipio comes sustineo ager avaritia fuga cometes.","body":"Vado delinquo architecto. Abduco et quam. Ullus turbo bonus. Aspernatur solvo vae. Cresco colloco deludo. Defetiscor arguo adeo. Accendo vicinus ab. Vado verumtamen tandem. Vorax sequi omnis. Approbo sursum claro. Crinis vos vado. Sed temperantia capitulus. Cohibeo eum ultio. Adflicto asper quia. Defleo triumphus degenero. Succedo tamen civitas."}]
+17:16:03.555 [main] ERROR com.intuit.karate - classpath:api/users/users.feature:26
+And match response.title == title
+match failed: EQUALS
+  $ | actual path does not exist (STRING:STRING)
+  '#notpresent'
+  'Cur comitatus angustus suscipio comes sustineo ager avaritia fuga cometes.'
+
+classpath:api/users/users.feature:26
+17:16:03.589 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:16:03.678 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 95
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"gender":"male","name":"Wilmar Nome SobreNome","email":"Wilmar@Email.com","status":"inactive"}
+
+17:16:04.985 [main] DEBUG com.intuit.karate - response time in milliseconds: 1305
+1 < 401
+1 < Date: Tue, 06 Dec 2022 20:16:04 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: f5634bac-572f-474d-b5da-f2519e37b024
+1 < x-runtime: 0.006551
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=LSarGO4biAZqxUaqjSzahowJnzk%2Bh6uJxNkiYfC3VZd0ItU9Glm5CGzWeeRAsGRHCxQ0pMzycvNAj25KzCzPyWEX6EsKmQo%2BB%2B1hPotJwHnDLF4w9pCThm6LVWpnMyo%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757b277d9d5520b-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"message":"Authentication failed"}
+17:16:04.989 [main] ERROR com.intuit.karate - classpath:api/users/users.feature:41
+Then status 201
+status code was: 401, expected: 201, response time in milliseconds: 1305, url: https://gorest.co.in/public/v2/users, response: 
+{"message":"Authentication failed"}
+classpath:api/users/users.feature:41
+17:16:05.000 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:16:05.004 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/todos
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:16:06.315 [main] DEBUG com.intuit.karate - response time in milliseconds: 1309
+1 < 200
+1 < Date: Tue, 06 Dec 2022 20:16:06 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"c6a4c907880bfbbe8bb9d285dc41ad5e"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/todos?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/todos?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 200
+1 < x-pagination-total: 2000
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 5b910e89-b37f-4f92-8aba-0467b33fd83d
+1 < x-runtime: 0.017596
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=h53D%2FH4W6A9PF5bpGAJ998sQ3n4b85rNXFhLTHmeMTa5uHGZUGj8boxViauXD5EpLSYx3p3CcqJHChyi3rmHjJ9Z%2FidcM95Y%2BaZOcbNED2O04%2FmhkRbO3dtqPP89FQw%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757b27fdda5a573-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"user_id":4181,"id":2058,"title":"Laborum absque utrimque clibanus caelum vivo arceo vero argentum.","due_on":"2022-12-19T00:00:00.000+05:30","status":"completed"},{"user_id":4171,"id":2053,"title":"Sollers appositus vulgaris viriliter alius.","due_on":"2022-12-09T00:00:00.000+05:30","status":"completed"},{"user_id":4170,"id":2052,"title":"Amiculum surculus aedificium clementia magnam copia veniam.","due_on":"2023-01-01T00:00:00.000+05:30","status":"completed"},{"user_id":4169,"id":2051,"title":"Tempore enim viduo valens non et caelestis coniecto.","due_on":"2022-12-11T00:00:00.000+05:30","status":"pending"},{"user_id":4167,"id":2049,"title":"Solutio tenetur exercitationem usus curvus et corrumpo capitulus una aestivus eaque.","due_on":"2022-12-06T00:00:00.000+05:30","status":"completed"},{"user_id":4166,"id":2048,"title":"Victoria debitis ut temporibus rerum eaque vel sono certo sol.","due_on":"2022-12-23T00:00:00.000+05:30","status":"completed"},{"user_id":4163,"id":2047,"title":"Accendo voluptatem mollitia complectus verbum civis cotidie ager distinctio.","due_on":"2022-12-22T00:00:00.000+05:30","status":"completed"},{"user_id":4160,"id":2046,"title":"Perspiciatis absorbeo aro aestus statim spectaculum stillicidium trado.","due_on":"2023-01-03T00:00:00.000+05:30","status":"pending"},{"user_id":4159,"id":2045,"title":"Caelestis delicate undique attero versus.","due_on":"2022-12-12T00:00:00.000+05:30","status":"completed"},{"user_id":4156,"id":2043,"title":"Solvo adinventitias vita sit velociter unde adsidue terreo similique beatae.","due_on":"2022-12-19T00:00:00.000+05:30","status":"completed"}]
+17:19:23.806 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:19:26.531 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:19:28.088 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:19:30.006 [main] DEBUG com.intuit.karate - response time in milliseconds: 1876
+1 < 200
+1 < Date: Tue, 06 Dec 2022 20:19:29 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"938a428c30ac360bb047f2c735f1e716"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 407
+1 < x-pagination-total: 4062
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: ad40b166-3904-4d86-9e1c-ed1f4a4d1fa8
+1 < x-runtime: 0.017370
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fqNExz%2BFUH1sK154hm56z3mIVCQanOdbI3%2BP2vdxJMFYX%2BQ871CCtgb4YOO7bxytwEdz3UIsY2x%2FDzSn1wA3ISztuzLH20CxM85P6kVa6ZPsFjjJYUGNIo4x8xM2%2FZQ%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757b778ec30a5aa-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"gender":"female","name":"Bhooshan Nambeesan","id":4171,"email":"bhooshan_nambeesan@jaskolski-romaguera.info","status":"inactive"},{"gender":"male","name":"Subhash Verma","id":4170,"email":"subhash_verma@kirlin.biz","status":"active"},{"gender":"female","name":"Suma Deshpande VM","id":4169,"email":"suma_vm_deshpande@sauer.com","status":"inactive"},{"gender":"male","name":"Chidambar Varrier","id":4167,"email":"varrier_chidambar@ledner.co","status":"active"},{"gender":"male","name":"Pres. Maheswar Prajapat","id":4166,"email":"pres_prajapat_maheswar@zieme.net","status":"active"},{"gender":"female","name":"Bhooshan Prajapat","id":4163,"email":"prajapat_bhooshan@spencer-herman.net","status":"active"},{"gender":"male","name":"Veda Joshi","id":4162,"email":"joshi_veda@halvorson.org","status":"inactive"},{"gender":"female","name":"Prasanna Guneta","id":4161,"email":"prasanna_guneta@rogahn.biz","status":"active"},{"gender":"male","name":"Akroor Talwar DDS","id":4160,"email":"dds_akroor_talwar@prohaska.name","status":"active"},{"gender":"female","name":"Paramartha Chopra","id":4159,"email":"paramartha_chopra@green.info","status":"active"}]
+17:19:30.117 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:19:30.134 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/33
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:19:31.393 [main] DEBUG com.intuit.karate - response time in milliseconds: 1256
+1 < 404
+1 < Date: Tue, 06 Dec 2022 20:19:31 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 4551f145-313c-485c-a7fc-bd0a821e09b8
+1 < x-runtime: 0.009174
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XQGZzw4qs9bpcb3mfF0oaTWYWNAgrTAx36vs1ghE41sS8knNm0P0celEAILf7S1Sa4%2BFdfFVtPL1zpKVWcaJ4tnAl2zO8t%2BatsS2lO0tyhSkxa9f9lszyfSnIGeJNgM%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757b7823ab05210-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"message":"Resource not found"}
+17:19:31.441 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:19:31.448 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/posts?user_id=4171
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:19:31.891 [main] DEBUG com.intuit.karate - response time in milliseconds: 442
+1 < 200
+1 < Date: Tue, 06 Dec 2022 20:19:31 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"1d8dbc8e02159fa515ba7bfa793f74c4"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/posts?page=1
+1 < x-links-next: 
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 1
+1 < x-pagination-total: 1
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: f31f6583-7be1-418f-bc24-13611026949b
+1 < x-runtime: 0.013989
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=y8bhRTmfZMb2LG47qSF12gMNrdih3lHA4VSHGyv2V7MgH08at1iQ212xljci19peEHc01YvxfpDZeFGsK6aZ7h83%2BCiu526b%2F0zniMQOGd0sPa0QFjya1jMA4Tu%2BEvg%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757b78a2abfa622-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"user_id":4171,"id":2146,"title":"Cur comitatus angustus suscipio comes sustineo ager avaritia fuga cometes.","body":"Vado delinquo architecto. Abduco et quam. Ullus turbo bonus. Aspernatur solvo vae. Cresco colloco deludo. Defetiscor arguo adeo. Accendo vicinus ab. Vado verumtamen tandem. Vorax sequi omnis. Approbo sursum claro. Crinis vos vado. Sed temperantia capitulus. Cohibeo eum ultio. Adflicto asper quia. Defleo triumphus degenero. Succedo tamen civitas."}]
+17:19:31.898 [main] INFO  com.intuit.karate - [print] [
+  {
+    "user_id": 4171,
+    "id": 2146,
+    "title": "Cur comitatus angustus suscipio comes sustineo ager avaritia fuga cometes.",
+    "body": "Vado delinquo architecto. Abduco et quam. Ullus turbo bonus. Aspernatur solvo vae. Cresco colloco deludo. Defetiscor arguo adeo. Accendo vicinus ab. Vado verumtamen tandem. Vorax sequi omnis. Approbo sursum claro. Crinis vos vado. Sed temperantia capitulus. Cohibeo eum ultio. Adflicto asper quia. Defleo triumphus degenero. Succedo tamen civitas."
+  }
+]
+ 
+17:19:31.917 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:19:32.010 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 95
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"gender":"male","name":"Wilmar Nome SobreNome","email":"Wilmar@Email.com","status":"inactive"}
+
+17:19:33.231 [main] DEBUG com.intuit.karate - response time in milliseconds: 1216
+1 < 401
+1 < Date: Tue, 06 Dec 2022 20:19:33 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: d673c240-06b6-466e-8450-e610c8e271b0
+1 < x-runtime: 0.006463
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vpXrG1VmzEOh9AT%2BRyiPx8xnvcM%2B7eEH35fC1yLtB25wRvYNzIvls8B46t37%2FottzZqM03nGWtUG5IydV%2FnTMbmzoovG4gnFtAmbYug104b%2B3dZ2T07t3M44elpRX5M%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757b78db9f76037-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"message":"Authentication failed"}
+17:19:33.258 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:19:33.262 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/todos
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:19:34.565 [main] DEBUG com.intuit.karate - response time in milliseconds: 1301
+1 < 200
+1 < Date: Tue, 06 Dec 2022 20:19:34 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"c6a4c907880bfbbe8bb9d285dc41ad5e"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/todos?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/todos?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 200
+1 < x-pagination-total: 2000
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 78b4f456-abcc-4962-8d29-549b3f79a6d0
+1 < x-runtime: 0.018285
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XxOLErCm9K2yM3ooCt1Ueld%2FO3TVpB8UIUlCFOd1koQdEDLwo8w%2BJOLat7eWi4c1GwtDGVkFEMoL2ZieYz%2BZqEuIcfJ56KOIwnU7DNlkvonWJx%2BZfd4%2FPM9RI5By8kI%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757b7958ff1a62e-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"user_id":4181,"id":2058,"title":"Laborum absque utrimque clibanus caelum vivo arceo vero argentum.","due_on":"2022-12-19T00:00:00.000+05:30","status":"completed"},{"user_id":4171,"id":2053,"title":"Sollers appositus vulgaris viriliter alius.","due_on":"2022-12-09T00:00:00.000+05:30","status":"completed"},{"user_id":4170,"id":2052,"title":"Amiculum surculus aedificium clementia magnam copia veniam.","due_on":"2023-01-01T00:00:00.000+05:30","status":"completed"},{"user_id":4169,"id":2051,"title":"Tempore enim viduo valens non et caelestis coniecto.","due_on":"2022-12-11T00:00:00.000+05:30","status":"pending"},{"user_id":4167,"id":2049,"title":"Solutio tenetur exercitationem usus curvus et corrumpo capitulus una aestivus eaque.","due_on":"2022-12-06T00:00:00.000+05:30","status":"completed"},{"user_id":4166,"id":2048,"title":"Victoria debitis ut temporibus rerum eaque vel sono certo sol.","due_on":"2022-12-23T00:00:00.000+05:30","status":"completed"},{"user_id":4163,"id":2047,"title":"Accendo voluptatem mollitia complectus verbum civis cotidie ager distinctio.","due_on":"2022-12-22T00:00:00.000+05:30","status":"completed"},{"user_id":4160,"id":2046,"title":"Perspiciatis absorbeo aro aestus statim spectaculum stillicidium trado.","due_on":"2023-01-03T00:00:00.000+05:30","status":"pending"},{"user_id":4159,"id":2045,"title":"Caelestis delicate undique attero versus.","due_on":"2022-12-12T00:00:00.000+05:30","status":"completed"},{"user_id":4156,"id":2043,"title":"Solvo adinventitias vita sit velociter unde adsidue terreo similique beatae.","due_on":"2022-12-19T00:00:00.000+05:30","status":"completed"}]
+17:20:46.135 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:20:48.920 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:20:49.736 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:20:51.762 [main] DEBUG com.intuit.karate - response time in milliseconds: 1997
+1 < 200
+1 < Date: Tue, 06 Dec 2022 20:20:51 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"938a428c30ac360bb047f2c735f1e716"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 407
+1 < x-pagination-total: 4062
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 4d262e4e-9b97-4ef3-bd9e-1b3d85f6b8fa
+1 < x-runtime: 0.017316
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=pwbrWfxzCnhPZZuVCo4j%2BEAUjBXEUdoVFtyuB5JZo%2F9jWfpNZWjCaHcDC5SdJwRUhHNfdPuqHHMxuDvjk%2B28JLOMCyf%2FUuRY27lOxBWyj7gIs8%2B3eG9ErFZzIpkzvs0%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757b9781c2a4cf7-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"gender":"female","name":"Bhooshan Nambeesan","id":4171,"email":"bhooshan_nambeesan@jaskolski-romaguera.info","status":"inactive"},{"gender":"male","name":"Subhash Verma","id":4170,"email":"subhash_verma@kirlin.biz","status":"active"},{"gender":"female","name":"Suma Deshpande VM","id":4169,"email":"suma_vm_deshpande@sauer.com","status":"inactive"},{"gender":"male","name":"Chidambar Varrier","id":4167,"email":"varrier_chidambar@ledner.co","status":"active"},{"gender":"male","name":"Pres. Maheswar Prajapat","id":4166,"email":"pres_prajapat_maheswar@zieme.net","status":"active"},{"gender":"female","name":"Bhooshan Prajapat","id":4163,"email":"prajapat_bhooshan@spencer-herman.net","status":"active"},{"gender":"male","name":"Veda Joshi","id":4162,"email":"joshi_veda@halvorson.org","status":"inactive"},{"gender":"female","name":"Prasanna Guneta","id":4161,"email":"prasanna_guneta@rogahn.biz","status":"active"},{"gender":"male","name":"Akroor Talwar DDS","id":4160,"email":"dds_akroor_talwar@prohaska.name","status":"active"},{"gender":"female","name":"Paramartha Chopra","id":4159,"email":"paramartha_chopra@green.info","status":"active"}]
+17:20:51.838 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:20:51.849 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/33
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:20:52.437 [main] DEBUG com.intuit.karate - response time in milliseconds: 585
+1 < 404
+1 < Date: Tue, 06 Dec 2022 20:20:52 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: b5337d7e-9413-409f-aadc-838acdc17a9e
+1 < x-runtime: 0.009123
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7EVBTkcJtIc%2FH%2FEfeKeC3j%2B02xkewayFDGkdJRq2krnhc8lTcnrdD9wwWusYRsnVNThNKKR202HZys0DRVcT6lxi7BVgmV6d%2BiXH4fJD3zSWgRby9I8%2Fe3rcbBv0Ghc%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757b980fa75a5cb-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"message":"Resource not found"}
+17:20:52.487 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:20:52.499 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/posts?user_id=4171
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:20:53.057 [main] DEBUG com.intuit.karate - response time in milliseconds: 558
+1 < 200
+1 < Date: Tue, 06 Dec 2022 20:20:53 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"1d8dbc8e02159fa515ba7bfa793f74c4"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/posts?page=1
+1 < x-links-next: 
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 1
+1 < x-pagination-total: 1
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: ac78bc40-ad1f-4be0-bd58-3ffcf5e49740
+1 < x-runtime: 0.013903
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=HwoUacuuzApVZBTbeTMH7eIgjwXrsMFAZTCqWqi8EnOWte1kPhxM44Pzmi82Y9EbqBJexKLgtkxJynrJuvR851m%2BP3WghxLlZ%2FYHWr75jiGK%2BYVCZBNgRJABJ2pPyhs%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757b984db414cf1-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"user_id":4171,"id":2146,"title":"Cur comitatus angustus suscipio comes sustineo ager avaritia fuga cometes.","body":"Vado delinquo architecto. Abduco et quam. Ullus turbo bonus. Aspernatur solvo vae. Cresco colloco deludo. Defetiscor arguo adeo. Accendo vicinus ab. Vado verumtamen tandem. Vorax sequi omnis. Approbo sursum claro. Crinis vos vado. Sed temperantia capitulus. Cohibeo eum ultio. Adflicto asper quia. Defleo triumphus degenero. Succedo tamen civitas."}]
+17:20:53.063 [main] INFO  com.intuit.karate - [print] Cur comitatus angustus suscipio comes sustineo ager avaritia fuga cometes. 
+17:20:53.102 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:20:53.219 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 95
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"gender":"male","name":"Wilmar Nome SobreNome","email":"Wilmar@Email.com","status":"inactive"}
+
+17:20:54.479 [main] DEBUG com.intuit.karate - response time in milliseconds: 1256
+1 < 401
+1 < Date: Tue, 06 Dec 2022 20:20:54 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 75086c4c-27bd-428d-b614-a31eadd74a5b
+1 < x-runtime: 0.005681
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dl92cm1S0H0qTXoJJE0WxIeo8lbsqWW3%2BEllfgOcsxpnE6Dfncsht%2FzS7SN2nbUwjX3diBbHdZq2AiauDRHeJGjKk6XWKhr6WA227P5Jdp2GHJep33bwu3dVrrpXnQc%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757b989aed3a4a8-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"message":"Authentication failed"}
+17:20:54.506 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:20:54.510 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/todos
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:20:55.759 [main] DEBUG com.intuit.karate - response time in milliseconds: 1247
+1 < 200
+1 < Date: Tue, 06 Dec 2022 20:20:55 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"c6a4c907880bfbbe8bb9d285dc41ad5e"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/todos?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/todos?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 200
+1 < x-pagination-total: 2000
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: c7b6604e-a410-46e5-9282-12089280c6b9
+1 < x-runtime: 0.016695
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QPynl8BXQjyLNrOZbu7V6YFXH3Epv9xMkMwnd1yN3hjoAyZONdqvGmu38D4dmTaHWA9X%2B6LnYwxDQcHltcZbVrDb028ejwjMDrJqxClgW7HPcVRHMkId5pn%2FRhVyMfA%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757b99159640304-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"user_id":4181,"id":2058,"title":"Laborum absque utrimque clibanus caelum vivo arceo vero argentum.","due_on":"2022-12-19T00:00:00.000+05:30","status":"completed"},{"user_id":4171,"id":2053,"title":"Sollers appositus vulgaris viriliter alius.","due_on":"2022-12-09T00:00:00.000+05:30","status":"completed"},{"user_id":4170,"id":2052,"title":"Amiculum surculus aedificium clementia magnam copia veniam.","due_on":"2023-01-01T00:00:00.000+05:30","status":"completed"},{"user_id":4169,"id":2051,"title":"Tempore enim viduo valens non et caelestis coniecto.","due_on":"2022-12-11T00:00:00.000+05:30","status":"pending"},{"user_id":4167,"id":2049,"title":"Solutio tenetur exercitationem usus curvus et corrumpo capitulus una aestivus eaque.","due_on":"2022-12-06T00:00:00.000+05:30","status":"completed"},{"user_id":4166,"id":2048,"title":"Victoria debitis ut temporibus rerum eaque vel sono certo sol.","due_on":"2022-12-23T00:00:00.000+05:30","status":"completed"},{"user_id":4163,"id":2047,"title":"Accendo voluptatem mollitia complectus verbum civis cotidie ager distinctio.","due_on":"2022-12-22T00:00:00.000+05:30","status":"completed"},{"user_id":4160,"id":2046,"title":"Perspiciatis absorbeo aro aestus statim spectaculum stillicidium trado.","due_on":"2023-01-03T00:00:00.000+05:30","status":"pending"},{"user_id":4159,"id":2045,"title":"Caelestis delicate undique attero versus.","due_on":"2022-12-12T00:00:00.000+05:30","status":"completed"},{"user_id":4156,"id":2043,"title":"Solvo adinventitias vita sit velociter unde adsidue terreo similique beatae.","due_on":"2022-12-19T00:00:00.000+05:30","status":"completed"}]
+17:22:23.251 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:22:25.135 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:22:25.961 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:22:27.956 [main] DEBUG com.intuit.karate - response time in milliseconds: 1965
+1 < 200
+1 < Date: Tue, 06 Dec 2022 20:22:27 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"938a428c30ac360bb047f2c735f1e716"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 407
+1 < x-pagination-total: 4062
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: c722545a-4b4c-41af-8fff-596f6f200736
+1 < x-runtime: 0.017324
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=NYwDo57EBUJZQXdQTk9D4SmEl0rZoy8LOfX1sxdu38Cms0fjcpXOGX%2BtEMQCyWJrEXzY%2BPqaWljQ6yZYcujzHSip4U%2FWC5C%2BUZP4nu2WlAWddhkiOrgeUaPyBgNm7ZU%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757bbd0ea3e00c0-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"gender":"female","name":"Bhooshan Nambeesan","id":4171,"email":"bhooshan_nambeesan@jaskolski-romaguera.info","status":"inactive"},{"gender":"male","name":"Subhash Verma","id":4170,"email":"subhash_verma@kirlin.biz","status":"active"},{"gender":"female","name":"Suma Deshpande VM","id":4169,"email":"suma_vm_deshpande@sauer.com","status":"inactive"},{"gender":"male","name":"Chidambar Varrier","id":4167,"email":"varrier_chidambar@ledner.co","status":"active"},{"gender":"male","name":"Pres. Maheswar Prajapat","id":4166,"email":"pres_prajapat_maheswar@zieme.net","status":"active"},{"gender":"female","name":"Bhooshan Prajapat","id":4163,"email":"prajapat_bhooshan@spencer-herman.net","status":"active"},{"gender":"male","name":"Veda Joshi","id":4162,"email":"joshi_veda@halvorson.org","status":"inactive"},{"gender":"female","name":"Prasanna Guneta","id":4161,"email":"prasanna_guneta@rogahn.biz","status":"active"},{"gender":"male","name":"Akroor Talwar DDS","id":4160,"email":"dds_akroor_talwar@prohaska.name","status":"active"},{"gender":"female","name":"Paramartha Chopra","id":4159,"email":"paramartha_chopra@green.info","status":"active"}]
+17:22:28.011 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:22:28.019 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/33
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:22:29.348 [main] DEBUG com.intuit.karate - response time in milliseconds: 1329
+1 < 404
+1 < Date: Tue, 06 Dec 2022 20:22:29 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: b407208a-fbea-4b63-b6d0-4a9f842ca3e5
+1 < x-runtime: 0.008498
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6YUa1IUo6nNjSqqufeQl32LC1OmdrFX%2FwcLmiDBZxNPk90ghOF%2F%2F7ZGlvxuH1py%2FhwveD52HjXwebZr%2B8Juo7jj8uFD0kA%2BPbc%2FlNDEp5tkVcgf3aYUt8vECT4K1PHU%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757bbd9cc0a00f6-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"message":"Resource not found"}
+17:22:29.440 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:22:29.448 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/posts?user_id=4171
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:22:30.887 [main] DEBUG com.intuit.karate - response time in milliseconds: 1408
+1 < 200
+1 < Date: Tue, 06 Dec 2022 20:22:30 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"1d8dbc8e02159fa515ba7bfa793f74c4"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/posts?page=1
+1 < x-links-next: 
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 1
+1 < x-pagination-total: 1
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: d46d9353-9d96-4875-aae1-634d5ec877e2
+1 < x-runtime: 0.013273
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ivaM0b%2F2DEIIAVhFHS8BX4O1gehJoTZ1m2Cp%2Br%2BO14z9wKiA4uTOR8rmrMKf8EdIYdbvCdwrSSkj6n4Zd%2F2XCbHkfcImqvY2zQacFWO0JN0s%2Fs4TxCwm1X%2BdazpfmIQ%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757bbe2fe7451ed-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"user_id":4171,"id":2146,"title":"Cur comitatus angustus suscipio comes sustineo ager avaritia fuga cometes.","body":"Vado delinquo architecto. Abduco et quam. Ullus turbo bonus. Aspernatur solvo vae. Cresco colloco deludo. Defetiscor arguo adeo. Accendo vicinus ab. Vado verumtamen tandem. Vorax sequi omnis. Approbo sursum claro. Crinis vos vado. Sed temperantia capitulus. Cohibeo eum ultio. Adflicto asper quia. Defleo triumphus degenero. Succedo tamen civitas."}]
+17:22:30.892 [main] ERROR com.intuit.karate - classpath:api/users/users.feature:26
+And match response.title == title
+match failed: EQUALS
+  $ | actual path does not exist (STRING:STRING)
+  '#notpresent'
+  'Cur comitatus angustus suscipio comes sustineo ager avaritia fuga cometes.'
+
+classpath:api/users/users.feature:26
+17:22:30.932 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:22:31.066 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 95
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"gender":"male","name":"Wilmar Nome SobreNome","email":"Wilmar@Email.com","status":"inactive"}
+
+17:22:32.294 [main] DEBUG com.intuit.karate - response time in milliseconds: 1226
+1 < 401
+1 < Date: Tue, 06 Dec 2022 20:22:32 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 5b8926ca-1f9f-45c2-900e-11fbfb6e61cc
+1 < x-runtime: 0.007766
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=a1yZhop2nZ3jFLxoB3lQUm0SbAm8RaNSLNNQjA8pDSAf8TWpxDkQuiVMQHz0Z2W69CfRxDdlsKF3%2FBpcEb5TZT97gRESg3Q1ZLgpEPGHa58FgcvL%2B6a6DmfJrQU8bB4%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757bbecee0e1b18-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"message":"Authentication failed"}
+17:22:32.371 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:22:32.379 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/todos
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:22:33.625 [main] DEBUG com.intuit.karate - response time in milliseconds: 1244
+1 < 200
+1 < Date: Tue, 06 Dec 2022 20:22:33 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"c6a4c907880bfbbe8bb9d285dc41ad5e"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/todos?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/todos?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 200
+1 < x-pagination-total: 2000
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 4f168bf2-3583-4dab-940c-47b2856e843a
+1 < x-runtime: 0.018494
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wv8MvF%2BPfm1qIjIDd0locIy%2BZMT7e%2B1KREiz10Xep1XdPZ21T4xl03gfCTmkOOrMoyoKCcpaSKj7OB78ZNz%2FS5HmICrnrslsCjDQIzHRSRce6%2B%2Fh9j5ASDbgpNExhP8%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757bbf50f9f1aa0-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"user_id":4181,"id":2058,"title":"Laborum absque utrimque clibanus caelum vivo arceo vero argentum.","due_on":"2022-12-19T00:00:00.000+05:30","status":"completed"},{"user_id":4171,"id":2053,"title":"Sollers appositus vulgaris viriliter alius.","due_on":"2022-12-09T00:00:00.000+05:30","status":"completed"},{"user_id":4170,"id":2052,"title":"Amiculum surculus aedificium clementia magnam copia veniam.","due_on":"2023-01-01T00:00:00.000+05:30","status":"completed"},{"user_id":4169,"id":2051,"title":"Tempore enim viduo valens non et caelestis coniecto.","due_on":"2022-12-11T00:00:00.000+05:30","status":"pending"},{"user_id":4167,"id":2049,"title":"Solutio tenetur exercitationem usus curvus et corrumpo capitulus una aestivus eaque.","due_on":"2022-12-06T00:00:00.000+05:30","status":"completed"},{"user_id":4166,"id":2048,"title":"Victoria debitis ut temporibus rerum eaque vel sono certo sol.","due_on":"2022-12-23T00:00:00.000+05:30","status":"completed"},{"user_id":4163,"id":2047,"title":"Accendo voluptatem mollitia complectus verbum civis cotidie ager distinctio.","due_on":"2022-12-22T00:00:00.000+05:30","status":"completed"},{"user_id":4160,"id":2046,"title":"Perspiciatis absorbeo aro aestus statim spectaculum stillicidium trado.","due_on":"2023-01-03T00:00:00.000+05:30","status":"pending"},{"user_id":4159,"id":2045,"title":"Caelestis delicate undique attero versus.","due_on":"2022-12-12T00:00:00.000+05:30","status":"completed"},{"user_id":4156,"id":2043,"title":"Solvo adinventitias vita sit velociter unde adsidue terreo similique beatae.","due_on":"2022-12-19T00:00:00.000+05:30","status":"completed"}]
+17:23:34.295 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:23:35.997 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:23:36.766 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:23:37.902 [main] DEBUG com.intuit.karate - response time in milliseconds: 1100
+1 < 200
+1 < Date: Tue, 06 Dec 2022 20:23:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"938a428c30ac360bb047f2c735f1e716"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 407
+1 < x-pagination-total: 4062
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: d2942e88-4eb2-43bf-9122-7e06a5617436
+1 < x-runtime: 0.019504
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=INiVRO6t2tk700S9LaLEBs1%2B4GXBVq9SqENmYH%2F78A3WM53M%2B17k7C41J7N12hN5skJXtJU3jWnUsO6mLoQTu7fCdCaUBiWsMqt6EhKAIaacPM1B933I7Y%2F%2F8qs9g44%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757bd8b484c02e5-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"gender":"female","name":"Bhooshan Nambeesan","id":4171,"email":"bhooshan_nambeesan@jaskolski-romaguera.info","status":"inactive"},{"gender":"male","name":"Subhash Verma","id":4170,"email":"subhash_verma@kirlin.biz","status":"active"},{"gender":"female","name":"Suma Deshpande VM","id":4169,"email":"suma_vm_deshpande@sauer.com","status":"inactive"},{"gender":"male","name":"Chidambar Varrier","id":4167,"email":"varrier_chidambar@ledner.co","status":"active"},{"gender":"male","name":"Pres. Maheswar Prajapat","id":4166,"email":"pres_prajapat_maheswar@zieme.net","status":"active"},{"gender":"female","name":"Bhooshan Prajapat","id":4163,"email":"prajapat_bhooshan@spencer-herman.net","status":"active"},{"gender":"male","name":"Veda Joshi","id":4162,"email":"joshi_veda@halvorson.org","status":"inactive"},{"gender":"female","name":"Prasanna Guneta","id":4161,"email":"prasanna_guneta@rogahn.biz","status":"active"},{"gender":"male","name":"Akroor Talwar DDS","id":4160,"email":"dds_akroor_talwar@prohaska.name","status":"active"},{"gender":"female","name":"Paramartha Chopra","id":4159,"email":"paramartha_chopra@green.info","status":"active"}]
+17:23:37.947 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:23:37.951 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/33
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:23:39.245 [main] DEBUG com.intuit.karate - response time in milliseconds: 1293
+1 < 404
+1 < Date: Tue, 06 Dec 2022 20:23:39 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 95eb0750-5839-4105-9b5e-2e929cdcaddd
+1 < x-runtime: 0.009608
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fKoRNPnmTTxfVMd11GVFpf8zZVNC7bA5p9yMi%2BVsgOi6i8k5PcG1au3AQnDfpi4AD8Q67JykENi3NzTTUGhdL5yek5fmjLPoIqC5LF41g0i3uM0l%2BzM0tSs5Q0OQ%2Frc%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757bd8eeb61603c-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"message":"Resource not found"}
+17:23:39.293 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:23:39.299 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/posts?user_id=4171
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:23:39.761 [main] DEBUG com.intuit.karate - response time in milliseconds: 461
+1 < 200
+1 < Date: Tue, 06 Dec 2022 20:23:39 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"1d8dbc8e02159fa515ba7bfa793f74c4"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/posts?page=1
+1 < x-links-next: 
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 1
+1 < x-pagination-total: 1
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 10ec61d2-8799-4c65-a72f-4f7df5c04ef7
+1 < x-runtime: 0.014835
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fla3mjEmbeFrlh8vo%2BDZUazM8d0BKWPwPxUcxDCqHRUwgXjMgqkqjr3dWG8%2BfnaKwUS7fwj7Q0QiW7oG0dLuOXQsvApYu9nlZ8Wz%2ByzUKFrrPXcC5g%2BOgQUK9%2BT9EoI%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757bd9749a84b46-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"user_id":4171,"id":2146,"title":"Cur comitatus angustus suscipio comes sustineo ager avaritia fuga cometes.","body":"Vado delinquo architecto. Abduco et quam. Ullus turbo bonus. Aspernatur solvo vae. Cresco colloco deludo. Defetiscor arguo adeo. Accendo vicinus ab. Vado verumtamen tandem. Vorax sequi omnis. Approbo sursum claro. Crinis vos vado. Sed temperantia capitulus. Cohibeo eum ultio. Adflicto asper quia. Defleo triumphus degenero. Succedo tamen civitas."}]
+17:23:39.775 [main] INFO  com.intuit.karate - [print] [
+  {
+    "user_id": 4171,
+    "id": 2146,
+    "title": "Cur comitatus angustus suscipio comes sustineo ager avaritia fuga cometes.",
+    "body": "Vado delinquo architecto. Abduco et quam. Ullus turbo bonus. Aspernatur solvo vae. Cresco colloco deludo. Defetiscor arguo adeo. Accendo vicinus ab. Vado verumtamen tandem. Vorax sequi omnis. Approbo sursum claro. Crinis vos vado. Sed temperantia capitulus. Cohibeo eum ultio. Adflicto asper quia. Defleo triumphus degenero. Succedo tamen civitas."
+  }
+]
+ 
+17:23:39.799 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:23:39.959 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 95
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"gender":"male","name":"Wilmar Nome SobreNome","email":"Wilmar@Email.com","status":"inactive"}
+
+17:23:41.175 [main] DEBUG com.intuit.karate - response time in milliseconds: 1213
+1 < 401
+1 < Date: Tue, 06 Dec 2022 20:23:41 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 64d91325-86bc-49c5-abe6-559508aaf96c
+1 < x-runtime: 0.009097
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=iuNKKjEFDpLQGw4XcTCNwlfM9BuTKAnk7r4w5XGkGs8OlPVKhj64MdrYQS89VdKFrXYCR5A0Fmv4lvzoorerKzlU9rsKzNK1vwRy0G6N0Z8zPjuGeomXLRsz7rCUEr4%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757bd9b7f6b0305-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"message":"Authentication failed"}
+17:23:41.192 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:23:41.201 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/todos
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:23:42.208 [main] DEBUG com.intuit.karate - response time in milliseconds: 1004
+1 < 200
+1 < Date: Tue, 06 Dec 2022 20:23:42 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"c6a4c907880bfbbe8bb9d285dc41ad5e"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/todos?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/todos?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 200
+1 < x-pagination-total: 2000
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 77dd598f-8ead-4bed-b9e0-6b7979a9023c
+1 < x-runtime: 0.022630
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Rxv7DYNc2COE12vuSEeXQQXJaOkiHIXotUA8GvlDk2kwE%2BnU6rL1PWNODFJbUJnEswNs8OoNwrPaar02Tk%2FmirMvwQ2ITYOPvaeT3lmyG93BIi8U9HzmK1AFwmcGFE4%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757bda66cdd1a91-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"user_id":4181,"id":2058,"title":"Laborum absque utrimque clibanus caelum vivo arceo vero argentum.","due_on":"2022-12-19T00:00:00.000+05:30","status":"completed"},{"user_id":4171,"id":2053,"title":"Sollers appositus vulgaris viriliter alius.","due_on":"2022-12-09T00:00:00.000+05:30","status":"completed"},{"user_id":4170,"id":2052,"title":"Amiculum surculus aedificium clementia magnam copia veniam.","due_on":"2023-01-01T00:00:00.000+05:30","status":"completed"},{"user_id":4169,"id":2051,"title":"Tempore enim viduo valens non et caelestis coniecto.","due_on":"2022-12-11T00:00:00.000+05:30","status":"pending"},{"user_id":4167,"id":2049,"title":"Solutio tenetur exercitationem usus curvus et corrumpo capitulus una aestivus eaque.","due_on":"2022-12-06T00:00:00.000+05:30","status":"completed"},{"user_id":4166,"id":2048,"title":"Victoria debitis ut temporibus rerum eaque vel sono certo sol.","due_on":"2022-12-23T00:00:00.000+05:30","status":"completed"},{"user_id":4163,"id":2047,"title":"Accendo voluptatem mollitia complectus verbum civis cotidie ager distinctio.","due_on":"2022-12-22T00:00:00.000+05:30","status":"completed"},{"user_id":4160,"id":2046,"title":"Perspiciatis absorbeo aro aestus statim spectaculum stillicidium trado.","due_on":"2023-01-03T00:00:00.000+05:30","status":"pending"},{"user_id":4159,"id":2045,"title":"Caelestis delicate undique attero versus.","due_on":"2022-12-12T00:00:00.000+05:30","status":"completed"},{"user_id":4156,"id":2043,"title":"Solvo adinventitias vita sit velociter unde adsidue terreo similique beatae.","due_on":"2022-12-19T00:00:00.000+05:30","status":"completed"}]
+17:24:21.464 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:24:25.156 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:24:26.546 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:24:28.203 [main] DEBUG com.intuit.karate - response time in milliseconds: 1538
+1 < 200
+1 < Date: Tue, 06 Dec 2022 20:24:28 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"938a428c30ac360bb047f2c735f1e716"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 407
+1 < x-pagination-total: 4062
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 1906ef9b-bba3-49a3-a77f-fa17d115c290
+1 < x-runtime: 0.036267
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0hS6vo0OVf3j6b2l0L6dr0ijq%2Fdr3dX36Es16i1lJjz2l6%2B0HAynZVvXU9S49%2BuCpU5fUF8m9ZoCI56g5uXcLaVz5aSvegSUWuoRmHIv1Jcsa2fNKav22s7R48yrzsU%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757bec49e3e010b-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"gender":"female","name":"Bhooshan Nambeesan","id":4171,"email":"bhooshan_nambeesan@jaskolski-romaguera.info","status":"inactive"},{"gender":"male","name":"Subhash Verma","id":4170,"email":"subhash_verma@kirlin.biz","status":"active"},{"gender":"female","name":"Suma Deshpande VM","id":4169,"email":"suma_vm_deshpande@sauer.com","status":"inactive"},{"gender":"male","name":"Chidambar Varrier","id":4167,"email":"varrier_chidambar@ledner.co","status":"active"},{"gender":"male","name":"Pres. Maheswar Prajapat","id":4166,"email":"pres_prajapat_maheswar@zieme.net","status":"active"},{"gender":"female","name":"Bhooshan Prajapat","id":4163,"email":"prajapat_bhooshan@spencer-herman.net","status":"active"},{"gender":"male","name":"Veda Joshi","id":4162,"email":"joshi_veda@halvorson.org","status":"inactive"},{"gender":"female","name":"Prasanna Guneta","id":4161,"email":"prasanna_guneta@rogahn.biz","status":"active"},{"gender":"male","name":"Akroor Talwar DDS","id":4160,"email":"dds_akroor_talwar@prohaska.name","status":"active"},{"gender":"female","name":"Paramartha Chopra","id":4159,"email":"paramartha_chopra@green.info","status":"active"}]
+17:24:28.371 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:24:28.383 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/33
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:24:29.822 [main] DEBUG com.intuit.karate - response time in milliseconds: 1435
+1 < 404
+1 < Date: Tue, 06 Dec 2022 20:24:29 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 77cdf4e2-c895-42b0-9726-8ba43af5c9ef
+1 < x-runtime: 0.015664
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hZtVEREdGOOpqHOn0QpqGZottf%2BL40Yjsylb8wvACrD5W4n5Warw47cOo30iswzSkwvOozrNpCGkVkXTn7CpLLrTeVsU6clgVwFeQ2xhN0UnsvQetPujqr5XCewphwA%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757beca7f87a667-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"message":"Resource not found"}
+17:24:29.956 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:24:29.985 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/posts?user_id=4171
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:24:30.485 [main] DEBUG com.intuit.karate - response time in milliseconds: 494
+1 < 200
+1 < Date: Tue, 06 Dec 2022 20:24:30 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"1d8dbc8e02159fa515ba7bfa793f74c4"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/posts?page=1
+1 < x-links-next: 
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 1
+1 < x-pagination-total: 1
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 3dade380-ef82-45b1-91d9-33ffce0ba651
+1 < x-runtime: 0.015773
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ofLt%2FWQP5T2slVfo3lAPxS0bGb12W5NEG%2Fa9BAK1aWsPUMpC3vh%2FZ6IgYWATELpeb%2FB2BwPy6s7loL4q54QN4HLyLdD3ialIbA5k5f65nyrmeCjT7E40hHR8Ozswf10%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757bed43a014d42-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"user_id":4171,"id":2146,"title":"Cur comitatus angustus suscipio comes sustineo ager avaritia fuga cometes.","body":"Vado delinquo architecto. Abduco et quam. Ullus turbo bonus. Aspernatur solvo vae. Cresco colloco deludo. Defetiscor arguo adeo. Accendo vicinus ab. Vado verumtamen tandem. Vorax sequi omnis. Approbo sursum claro. Crinis vos vado. Sed temperantia capitulus. Cohibeo eum ultio. Adflicto asper quia. Defleo triumphus degenero. Succedo tamen civitas."}]
+17:24:30.509 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:24:30.582 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 95
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"gender":"male","name":"Wilmar Nome SobreNome","email":"Wilmar@Email.com","status":"inactive"}
+
+17:24:31.052 [main] DEBUG com.intuit.karate - response time in milliseconds: 466
+1 < 401
+1 < Date: Tue, 06 Dec 2022 20:24:31 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 49b7db19-1ab8-4b55-bcaf-f4e0833f1b96
+1 < x-runtime: 0.006209
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ooupY3ESTqTmRB027p8QRUwX7hXgR7n3YCZ%2BTk0Zf8nEmxWOqeBaAKjL55yp4%2F5ePa7wfWAiQCQ%2BlQUDYL1zirLBBcftDAdvQShiY%2BLS7tz4JnnwYyjfNFJnsiLwNDM%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757bed7eaec0320-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"message":"Authentication failed"}
+17:24:31.078 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:24:31.082 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/todos
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:24:32.418 [main] DEBUG com.intuit.karate - response time in milliseconds: 1334
+1 < 200
+1 < Date: Tue, 06 Dec 2022 20:24:32 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"c6a4c907880bfbbe8bb9d285dc41ad5e"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/todos?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/todos?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 200
+1 < x-pagination-total: 2000
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 08de3831-5ed0-4013-b2f7-ad8cc0d8bcf0
+1 < x-runtime: 0.017444
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=NjU5K37NC2FFNstA63pgETeoF7D%2FPaS8YqdHfrj1SK5Arqc8g49jVkBSPR2Pb7g8Vwr93yI8CGxBYEgRNTy%2FdF%2F2sprEZmydK6aUmODxR4kOPwXMO9WFGehBi3xRx0U%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757bedb48d101af-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"user_id":4181,"id":2058,"title":"Laborum absque utrimque clibanus caelum vivo arceo vero argentum.","due_on":"2022-12-19T00:00:00.000+05:30","status":"completed"},{"user_id":4171,"id":2053,"title":"Sollers appositus vulgaris viriliter alius.","due_on":"2022-12-09T00:00:00.000+05:30","status":"completed"},{"user_id":4170,"id":2052,"title":"Amiculum surculus aedificium clementia magnam copia veniam.","due_on":"2023-01-01T00:00:00.000+05:30","status":"completed"},{"user_id":4169,"id":2051,"title":"Tempore enim viduo valens non et caelestis coniecto.","due_on":"2022-12-11T00:00:00.000+05:30","status":"pending"},{"user_id":4167,"id":2049,"title":"Solutio tenetur exercitationem usus curvus et corrumpo capitulus una aestivus eaque.","due_on":"2022-12-06T00:00:00.000+05:30","status":"completed"},{"user_id":4166,"id":2048,"title":"Victoria debitis ut temporibus rerum eaque vel sono certo sol.","due_on":"2022-12-23T00:00:00.000+05:30","status":"completed"},{"user_id":4163,"id":2047,"title":"Accendo voluptatem mollitia complectus verbum civis cotidie ager distinctio.","due_on":"2022-12-22T00:00:00.000+05:30","status":"completed"},{"user_id":4160,"id":2046,"title":"Perspiciatis absorbeo aro aestus statim spectaculum stillicidium trado.","due_on":"2023-01-03T00:00:00.000+05:30","status":"pending"},{"user_id":4159,"id":2045,"title":"Caelestis delicate undique attero versus.","due_on":"2022-12-12T00:00:00.000+05:30","status":"completed"},{"user_id":4156,"id":2043,"title":"Solvo adinventitias vita sit velociter unde adsidue terreo similique beatae.","due_on":"2022-12-19T00:00:00.000+05:30","status":"completed"}]
+17:26:47.686 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:26:50.259 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:26:51.223 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:26:52.265 [main] DEBUG com.intuit.karate - response time in milliseconds: 992
+1 < 200
+1 < Date: Tue, 06 Dec 2022 20:26:52 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"938a428c30ac360bb047f2c735f1e716"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 407
+1 < x-pagination-total: 4062
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 894930cc-e679-4190-9b7e-df41045abd74
+1 < x-runtime: 0.019401
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=58GHUJid0%2FyBnDXRg90owAuIYw18xutqvj80nVsMbnm3AnpKRAdLRcmUyWdqHl%2BCmV3%2F42qa9sUPEAWT62%2FoPbXXAuMdag81zE%2Bk3tc565%2FNwlauD9fIeJHyd8tJtOo%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757c249a8eca4d2-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"gender":"female","name":"Bhooshan Nambeesan","id":4171,"email":"bhooshan_nambeesan@jaskolski-romaguera.info","status":"inactive"},{"gender":"male","name":"Subhash Verma","id":4170,"email":"subhash_verma@kirlin.biz","status":"active"},{"gender":"female","name":"Suma Deshpande VM","id":4169,"email":"suma_vm_deshpande@sauer.com","status":"inactive"},{"gender":"male","name":"Chidambar Varrier","id":4167,"email":"varrier_chidambar@ledner.co","status":"active"},{"gender":"male","name":"Pres. Maheswar Prajapat","id":4166,"email":"pres_prajapat_maheswar@zieme.net","status":"active"},{"gender":"female","name":"Bhooshan Prajapat","id":4163,"email":"prajapat_bhooshan@spencer-herman.net","status":"active"},{"gender":"male","name":"Veda Joshi","id":4162,"email":"joshi_veda@halvorson.org","status":"inactive"},{"gender":"female","name":"Prasanna Guneta","id":4161,"email":"prasanna_guneta@rogahn.biz","status":"active"},{"gender":"male","name":"Akroor Talwar DDS","id":4160,"email":"dds_akroor_talwar@prohaska.name","status":"active"},{"gender":"female","name":"Paramartha Chopra","id":4159,"email":"paramartha_chopra@green.info","status":"active"}]
+17:26:52.364 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:26:52.400 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/33
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:26:53.724 [main] DEBUG com.intuit.karate - response time in milliseconds: 1322
+1 < 404
+1 < Date: Tue, 06 Dec 2022 20:26:53 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 94493885-0d79-468a-bd22-5a93664ba7c0
+1 < x-runtime: 0.008621
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ZEeQdxFIrPFD8h6iaAECe%2B9pIO3KNqeHowjtystTIZj%2BL7cmqHlGPjitR2xVbzOFfFALhzpazeoZmEGKtdkL6nf4BV9EXm9l94QeNJhpsNDQe1vEEAeGO4VBsB6XNcM%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757c24e2e48031a-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"message":"Resource not found"}
+17:26:53.767 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:26:53.774 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/posts?user_id=4171
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:26:55.061 [main] DEBUG com.intuit.karate - response time in milliseconds: 1287
+1 < 200
+1 < Date: Tue, 06 Dec 2022 20:26:55 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"1d8dbc8e02159fa515ba7bfa793f74c4"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/posts?page=1
+1 < x-links-next: 
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 1
+1 < x-pagination-total: 1
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: f120e00c-a03b-42a7-ba1c-d96e5f278544
+1 < x-runtime: 0.019169
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=yC2vBFYo51Afy7RR23Rv67r%2BX7BWF03qg4EHKOzc6hGv7sXsNrSqLTbDqrlzXcsXZloTIhNYD1hFPUZuIskymeoxsbiryInlMneEipXpds81DJhQw6kn%2Fdvz543EEck%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757c2567c77a5a7-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"user_id":4171,"id":2146,"title":"Cur comitatus angustus suscipio comes sustineo ager avaritia fuga cometes.","body":"Vado delinquo architecto. Abduco et quam. Ullus turbo bonus. Aspernatur solvo vae. Cresco colloco deludo. Defetiscor arguo adeo. Accendo vicinus ab. Vado verumtamen tandem. Vorax sequi omnis. Approbo sursum claro. Crinis vos vado. Sed temperantia capitulus. Cohibeo eum ultio. Adflicto asper quia. Defleo triumphus degenero. Succedo tamen civitas."}]
+17:26:55.064 [main] ERROR com.intuit.karate - classpath:api/users/users.feature:27
+And def response[0].title == title
+no step-definition method match found for: def response[0].title == title
+classpath:api/users/users.feature:27
+17:26:55.088 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:26:55.147 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 95
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"gender":"male","name":"Wilmar Nome SobreNome","email":"Wilmar@Email.com","status":"inactive"}
+
+17:26:56.503 [main] DEBUG com.intuit.karate - response time in milliseconds: 1335
+1 < 401
+1 < Date: Tue, 06 Dec 2022 20:26:56 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 17ece424-a9c5-4d75-acd0-eb9105c90847
+1 < x-runtime: 0.006134
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1iFA5RuEU%2BXUckTRmx16dZ%2FFqByaG7ZP2S7kq4v%2B0o06pbOLLnSRxM0HICcuafJoM1a2%2F0BmjAp%2FpWoHC2QYhpljZXKlgYmfgALRfmuPnF9p56eCrqyORCXX%2FOUzJ98%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757c25fa8171af1-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"message":"Authentication failed"}
+17:26:56.527 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:26:56.531 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/todos
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:26:57.820 [main] DEBUG com.intuit.karate - response time in milliseconds: 1288
+1 < 200
+1 < Date: Tue, 06 Dec 2022 20:26:57 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"c6a4c907880bfbbe8bb9d285dc41ad5e"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/todos?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/todos?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 200
+1 < x-pagination-total: 2000
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 69859452-98a5-42c2-8260-d2177ccbd03a
+1 < x-runtime: 0.017499
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=HyD7b67Rxv0soWPBb7a8XjB6dI%2Fx0sE94DbhaL7iBmvIhmMlcDlsU6sG%2FIm7YT9qWZn%2B3HV9%2F617oE%2F7sUonnbCcjRrPcmtojZXVsp8uTXvDd%2FM6qcz1IqYNVQFGRbE%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757c267bc65a5e0-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"user_id":4181,"id":2058,"title":"Laborum absque utrimque clibanus caelum vivo arceo vero argentum.","due_on":"2022-12-19T00:00:00.000+05:30","status":"completed"},{"user_id":4171,"id":2053,"title":"Sollers appositus vulgaris viriliter alius.","due_on":"2022-12-09T00:00:00.000+05:30","status":"completed"},{"user_id":4170,"id":2052,"title":"Amiculum surculus aedificium clementia magnam copia veniam.","due_on":"2023-01-01T00:00:00.000+05:30","status":"completed"},{"user_id":4169,"id":2051,"title":"Tempore enim viduo valens non et caelestis coniecto.","due_on":"2022-12-11T00:00:00.000+05:30","status":"pending"},{"user_id":4167,"id":2049,"title":"Solutio tenetur exercitationem usus curvus et corrumpo capitulus una aestivus eaque.","due_on":"2022-12-06T00:00:00.000+05:30","status":"completed"},{"user_id":4166,"id":2048,"title":"Victoria debitis ut temporibus rerum eaque vel sono certo sol.","due_on":"2022-12-23T00:00:00.000+05:30","status":"completed"},{"user_id":4163,"id":2047,"title":"Accendo voluptatem mollitia complectus verbum civis cotidie ager distinctio.","due_on":"2022-12-22T00:00:00.000+05:30","status":"completed"},{"user_id":4160,"id":2046,"title":"Perspiciatis absorbeo aro aestus statim spectaculum stillicidium trado.","due_on":"2023-01-03T00:00:00.000+05:30","status":"pending"},{"user_id":4159,"id":2045,"title":"Caelestis delicate undique attero versus.","due_on":"2022-12-12T00:00:00.000+05:30","status":"completed"},{"user_id":4156,"id":2043,"title":"Solvo adinventitias vita sit velociter unde adsidue terreo similique beatae.","due_on":"2022-12-19T00:00:00.000+05:30","status":"completed"}]
+17:27:28.060 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:27:30.939 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:27:32.030 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:27:34.973 [main] DEBUG com.intuit.karate - response time in milliseconds: 2909
+1 < 200
+1 < Date: Tue, 06 Dec 2022 20:27:34 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"938a428c30ac360bb047f2c735f1e716"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 407
+1 < x-pagination-total: 4062
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: d4a61fd4-7b2b-4921-8cad-5e4d3acc8590
+1 < x-runtime: 0.037831
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gmeOBUEgt4GpqdJheWcYGM%2B901NityYRNkCHPhvBiFqifnDbfdw8xgXZ%2FFQ2L8bXx%2FLTV6Li3zjt16uRTRvq61jOoRNZm0slFaVzg8tpqzX1CS04YLqLsCgMcjcN%2FN4%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757c34f2816010c-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"gender":"female","name":"Bhooshan Nambeesan","id":4171,"email":"bhooshan_nambeesan@jaskolski-romaguera.info","status":"inactive"},{"gender":"male","name":"Subhash Verma","id":4170,"email":"subhash_verma@kirlin.biz","status":"active"},{"gender":"female","name":"Suma Deshpande VM","id":4169,"email":"suma_vm_deshpande@sauer.com","status":"inactive"},{"gender":"male","name":"Chidambar Varrier","id":4167,"email":"varrier_chidambar@ledner.co","status":"active"},{"gender":"male","name":"Pres. Maheswar Prajapat","id":4166,"email":"pres_prajapat_maheswar@zieme.net","status":"active"},{"gender":"female","name":"Bhooshan Prajapat","id":4163,"email":"prajapat_bhooshan@spencer-herman.net","status":"active"},{"gender":"male","name":"Veda Joshi","id":4162,"email":"joshi_veda@halvorson.org","status":"inactive"},{"gender":"female","name":"Prasanna Guneta","id":4161,"email":"prasanna_guneta@rogahn.biz","status":"active"},{"gender":"male","name":"Akroor Talwar DDS","id":4160,"email":"dds_akroor_talwar@prohaska.name","status":"active"},{"gender":"female","name":"Paramartha Chopra","id":4159,"email":"paramartha_chopra@green.info","status":"active"}]
+17:27:35.082 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:27:35.104 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/33
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:27:36.730 [main] DEBUG com.intuit.karate - response time in milliseconds: 1624
+1 < 404
+1 < Date: Tue, 06 Dec 2022 20:27:36 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 7c77a572-c07d-49ad-a46a-e23d74417c95
+1 < x-runtime: 0.011979
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ip6izRIcHzYVe%2BoGOZr%2BvsxEkIL47yVFKDkAx9juj7vHDG1NbQHvep%2FTUgQH%2F%2FrpxTXfsvuPsoZILZT%2B1PHqY8RupZH5rd7aLzqk%2BB%2B%2FF4EtJNq8X8anlBKWpj4Sx9k%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757c35ffab1a511-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"message":"Resource not found"}
+17:27:36.771 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:27:36.780 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/posts?user_id=4171
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:27:38.130 [main] DEBUG com.intuit.karate - response time in milliseconds: 1349
+1 < 200
+1 < Date: Tue, 06 Dec 2022 20:27:38 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"1d8dbc8e02159fa515ba7bfa793f74c4"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/posts?page=1
+1 < x-links-next: 
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 1
+1 < x-pagination-total: 1
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 41478323-005b-440c-95c7-dc4be66595e8
+1 < x-runtime: 0.014169
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UkTikLSANqGXRUv6vs%2B599QwxjzxvdmZss%2BebfuMSh1WcrEUpLNf1XNhyI%2B8UjIPhJxMKbxcMOVnVVEKwKWuF%2FlswXnFX5ZJzSGObtFgOpPjiySlBjHS1q6g4mxXNmE%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757c368cf6400e2-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"user_id":4171,"id":2146,"title":"Cur comitatus angustus suscipio comes sustineo ager avaritia fuga cometes.","body":"Vado delinquo architecto. Abduco et quam. Ullus turbo bonus. Aspernatur solvo vae. Cresco colloco deludo. Defetiscor arguo adeo. Accendo vicinus ab. Vado verumtamen tandem. Vorax sequi omnis. Approbo sursum claro. Crinis vos vado. Sed temperantia capitulus. Cohibeo eum ultio. Adflicto asper quia. Defleo triumphus degenero. Succedo tamen civitas."}]
+17:27:38.146 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:27:38.204 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 95
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"gender":"male","name":"Wilmar Nome SobreNome","email":"Wilmar@Email.com","status":"inactive"}
+
+17:27:39.572 [main] DEBUG com.intuit.karate - response time in milliseconds: 1366
+1 < 401
+1 < Date: Tue, 06 Dec 2022 20:27:39 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 7cc236d7-fc45-4d5e-8ea7-cc2cdebba728
+1 < x-runtime: 0.006222
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7oXUSk69B7PHZTLLpZnQxKdezlcIUtohveZJr84xXaKSa8u2NkMzAufbdzP4BwOI%2FBG6HVF3A5vfB5qPWsz7XRvnM13ltNmix%2FW5Ld%2BDLCjaiZZ5erQWHsBaZruDiD8%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757c3715f701af4-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"message":"Authentication failed"}
+17:27:39.599 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:27:39.602 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/todos
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:27:40.090 [main] DEBUG com.intuit.karate - response time in milliseconds: 487
+1 < 200
+1 < Date: Tue, 06 Dec 2022 20:27:40 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"c6a4c907880bfbbe8bb9d285dc41ad5e"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/todos?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/todos?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 200
+1 < x-pagination-total: 2000
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: b13e3160-04a5-4524-9a6c-cee374514908
+1 < x-runtime: 0.027978
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kZviAyyrTwdA4t52%2Fg8gvmZYYoTnqz3zvEO8lrW6LlkcOXN%2Ful25uoZki0MIEvNCMrbiFr%2BJhRd1YA9d2EwgF1Fdu%2BA%2Bdc7QWdX2Bg4M8Z7qQj%2FDieztSbJwtDQly9Y%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7757c374ebe901ad-GRU
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"user_id":4181,"id":2058,"title":"Laborum absque utrimque clibanus caelum vivo arceo vero argentum.","due_on":"2022-12-19T00:00:00.000+05:30","status":"completed"},{"user_id":4171,"id":2053,"title":"Sollers appositus vulgaris viriliter alius.","due_on":"2022-12-09T00:00:00.000+05:30","status":"completed"},{"user_id":4170,"id":2052,"title":"Amiculum surculus aedificium clementia magnam copia veniam.","due_on":"2023-01-01T00:00:00.000+05:30","status":"completed"},{"user_id":4169,"id":2051,"title":"Tempore enim viduo valens non et caelestis coniecto.","due_on":"2022-12-11T00:00:00.000+05:30","status":"pending"},{"user_id":4167,"id":2049,"title":"Solutio tenetur exercitationem usus curvus et corrumpo capitulus una aestivus eaque.","due_on":"2022-12-06T00:00:00.000+05:30","status":"completed"},{"user_id":4166,"id":2048,"title":"Victoria debitis ut temporibus rerum eaque vel sono certo sol.","due_on":"2022-12-23T00:00:00.000+05:30","status":"completed"},{"user_id":4163,"id":2047,"title":"Accendo voluptatem mollitia complectus verbum civis cotidie ager distinctio.","due_on":"2022-12-22T00:00:00.000+05:30","status":"completed"},{"user_id":4160,"id":2046,"title":"Perspiciatis absorbeo aro aestus statim spectaculum stillicidium trado.","due_on":"2023-01-03T00:00:00.000+05:30","status":"pending"},{"user_id":4159,"id":2045,"title":"Caelestis delicate undique attero versus.","due_on":"2022-12-12T00:00:00.000+05:30","status":"completed"},{"user_id":4156,"id":2043,"title":"Solvo adinventitias vita sit velociter unde adsidue terreo similique beatae.","due_on":"2022-12-19T00:00:00.000+05:30","status":"completed"}]
