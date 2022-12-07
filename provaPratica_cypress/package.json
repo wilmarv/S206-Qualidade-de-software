@@ -1,0 +1,12 @@
+{
+  "name": "provaPratica_cypress",
+  "version": "1",
+  "description": "Prova - Teste de UI com cypress",
+  "main": "index.js",
+  "repository": "https://github.com/wilmarv/S206-Qualidade-de-software.git",
+  "author": "wilmar vitor fonseca <wilmarfonseca@gec.inatel.br>",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^12.0.1"
+  }
+}
